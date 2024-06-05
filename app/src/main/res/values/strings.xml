@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Chagas</string>
+    <string name="app_descr">Registro de atividades de controle da doença de Chagas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sobre</string>
+    <!-- Form Envio e Recebimento-->
+    <string name="tvConecta">Conectado</string>
+    <string name="tvImporta">Importar:</string>
+    <string name="tvInseto">Insetos</string>
+    <string name="tvCadastro">Cadastro</string>
+    <string name="tvNivel">Nível:</string>
+    <string name="tvMunicipio">Município</string>
+    <string name="tvColegiado">Colegiado</string>
+    <string name="tvRegional">Regional</string>
+    <string name="tvLocal">Local:</string>
+    <string name="tvBotao">Importar</string>
+    <string name="tvResumo">Registros a sincronizar:</string>
+    <string name="btSync">Sincronizar</string>
+
+    <!-- Form Notificacao-->
+    <string name="data">Data</string>
+    <string name="municipio">Município:</string>
+    <string name="localidade">Localidade:</string>
+    <string name="atividade">Atividade:</string>
+    <string name="notif">Notificação</string>
+    <string name="atend">Atendimento</string>
+    <string name="outra">Outra</string>
+    <string name="casa">Nº Casa:</string>
+    <string name="situacao">Situação:</string>
+    <string name="trab">Trabalhada</string>
+    <string name="fech">Fechada</string>
+    <string name="desab">Desabitada</string>
+    <string name="captura">Local Captura:</string>
+    <string name="intra">Intradomicílio</string>
+    <string name="peri">Peridomicílio</string>
+    <string name="ambos">Ambos</string>
+    <string name="lat">Lat: </string>
+    <string name="lng">Long:</string>
+    <string name="salva">Salvar</string>
+    <string name="tratamento">Tratamento</string>
+
+    <!-- Form Tratamento-->
+    <string name="tratIntra">Intradomicílio Tratado</string>
+    <string name="tratPeri">Peridomicílio Tratado</string>
+    <string name="tratNada">Não se Aplica</string>
+    <string name="tratConsumo">Consumo:</string>
+    <string name="tratProduto">Produto:</string>
+    <string name="volta">Voltar</string>
+
+    <!-- Limpeza -->
+    <string name="limpTudo">Todos</string>
+    <string name="limpEnvio">Enviados</string>
+    <string name="limpBotao">Limpar</string>
+    <string name="tvLimpa">Registros a excluir:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

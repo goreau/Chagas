@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.sucen.chagas.NotificacaoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="?attr/actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data"
+            android:id="@+id/textView7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/etData" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atividade"
+            android:id="@+id/textView1" />
+
+            <RadioGroup
+                android:id="@+id/rgAtiv"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="@integer/int1"
+                    android:text="@string/notif"
+                    android:id="@+id/rbNotifica" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atend"
+                    android:tag="@integer/int2"
+                    android:id="@+id/rbAtendimento" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/outra"
+                    android:tag="@integer/int3"
+                    android:id="@+id/rbOutras" />
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Execução:"
+            android:id="@+id/textView100" />
+
+            <RadioGroup
+                android:id="@+id/rgExec"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="@integer/int1"
+                    android:text="Sucen"
+                    android:id="@+id/rbExSucen" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Municipio"
+                    android:tag="@integer/int2"
+                    android:id="@+id/rbExMun" />
+            </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/municipio"
+            android:id="@+id/textView2" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spMunicipio" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/localidade"
+            android:id="@+id/textView3" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spLocalidade" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/casa"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCasa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/situacao"
+            android:id="@+id/textView5" />
+
+
+            <RadioGroup
+                android:id="@+id/rgSit"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/trab"
+                    android:id="@+id/rbTrabalhada" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fech"
+                    android:id="@+id/rbFechada" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desab"
+                    android:id="@+id/rbDesabitada" />
+            </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/captura"
+            android:id="@+id/textView6" />
+            <RadioGroup
+                android:id="@+id/rgLocal"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/intra"
+                    android:id="@+id/rbIntradomicilio" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/peri"
+                    android:id="@+id/rbPeridomicilio" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ambos"
+                    android:id="@+id/rbAmbos" />
+            </RadioGroup>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lat"
+                android:id="@+id/textView8"
+                android:layout_weight="0.3"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/etLatitude"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.7"/>
+            </TableRow>
+            <TableRow
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lng"
+                    android:id="@+id/textView9"
+                    android:layout_weight="0.3"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/etLongitude"
+                    android:layout_weight="0.7"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salva"
+            android:drawableRight="@drawable/novo"
+            android:textSize="@dimen/font_size"
+            android:paddingRight="60sp"
+            android:id="@+id/btSalva" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tratamento"
+            android:drawableRight="@drawable/prossegues"
+            android:textSize="@dimen/font_size"
+            android:paddingRight="60sp"
+            android:id="@+id/btTratamento" />
+
+    </LinearLayout>
+</ScrollView>

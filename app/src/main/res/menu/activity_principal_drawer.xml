@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notificacao"
+            android:icon="@drawable/ic_menu_atendimento"
+            android:title="Notificação" />
+        <item
+            android:id="@+id/atendimento"
+            android:icon="@drawable/ic_menu_consulta"
+            android:title="Consultar" />
+        <item
+            android:id="@+id/manutencao"
+            android:icon="@drawable/ic_menu_manutencao"
+            android:title="Manutençao" />
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item
+                android:id="@+id/receber"
+                android:icon="@drawable/ic_menu_recebe"
+                android:title="Receber Base" />
+            <item
+                android:id="@+id/envio"
+                android:icon="@drawable/ic_menu_envia"
+                android:title="Enviar Produção" />
+        </menu>
+    </item>
+
+</menu>
